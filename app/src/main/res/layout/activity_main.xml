@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vitaly.colorpicker.MainActivity">
+
+    <HorizontalScrollView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:id="@+id/square1"
+                android:layout_marginStart="0dp"
+                android:background="@drawable/square_bordered"
+                />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:layout_constraintStart_toEndOf="@id/square1"
+                android:id="@+id/square2"
+                android:layout_margin="50dp"
+                android:background="@drawable/square_bordered"
+                />
+
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:layout_constraintStart_toEndOf="@id/square2"
+                android:id="@+id/square3"
+                android:layout_margin="50dp"
+                android:background="@drawable/square_bordered"
+                />
+
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:layout_constraintStart_toEndOf="@id/square3"
+                android:id="@+id/square4"
+                android:layout_margin="50dp"
+                android:background="@drawable/square_bordered"
+                />
+
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:layout_constraintStart_toEndOf="@id/square4"
+                android:id="@+id/square5"
+                android:layout_margin="50dp"
+                android:background="@drawable/square_bordered"
+                />
+
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:layout_constraintStart_toEndOf="@id/square5"
+                android:id="@+id/square6"
+                android:layout_margin="50dp"
+                android:background="@drawable/square_bordered"
+                />
+
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:layout_constraintStart_toEndOf="@id/square6"
+                android:id="@+id/square7"
+                android:layout_margin="50dp"
+                android:background="@drawable/square_bordered"
+                />
+
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:layout_constraintStart_toEndOf="@id/square7"
+                android:id="@+id/square8"
+                android:layout_margin="50dp"
+                android:background="@drawable/square_bordered"
+                />
+
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:layout_constraintStart_toEndOf="@id/square8"
+                android:id="@+id/square9"
+                android:layout_margin="50dp"
+                android:background="@drawable/square_bordered"
+                />
+
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:layout_constraintStart_toEndOf="@id/square9"
+                android:id="@+id/square10"
+                android:layout_margin="50dp"
+                android:background="@drawable/square_bordered"
+                />
+
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:layout_constraintStart_toEndOf="@id/square10"
+                android:id="@+id/square11"
+                android:layout_margin="50dp"
+                android:background="@drawable/square_bordered"
+                />
+
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:layout_constraintStart_toEndOf="@id/square11"
+                android:id="@+id/square12"
+                android:layout_margin="50dp"
+                android:background="@drawable/square_bordered"
+                />
+
+
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:layout_constraintStart_toEndOf="@id/square12"
+                android:id="@+id/square13"
+                android:layout_margin="50dp"
+                android:background="@drawable/square_bordered"
+                />
+
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:layout_constraintStart_toEndOf="@id/square13"
+                android:id="@+id/square14"
+                android:layout_margin="50dp"
+                android:background="@drawable/square_bordered"
+                />
+
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:layout_constraintStart_toEndOf="@id/square14"
+                android:id="@+id/square15"
+                android:layout_margin="50dp"
+                android:background="@drawable/square_bordered"
+                />
+
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:layout_constraintStart_toEndOf="@id/square15"
+                android:id="@+id/square16"
+                android:layout_margin="50dp"
+                android:background="@drawable/square_bordered"
+                />
+
+
+
+            /*
+
+        </android.support.constraint.ConstraintLayout>
+    </HorizontalScrollView>
+</android.support.constraint.ConstraintLayout>
